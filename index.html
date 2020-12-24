@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>VS-Code</title>
+    <link rel="stylesheet" href="./node_modules/xterm/css/xterm.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <link rel="stylesheet" href="./node_modules/jquery-ui-dist/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h4 id="heading">Visual Studio Code</h4>
+    <div id="outer">
+            <div id="side-bar"> 
+            <div id="backImg"></div>
+
+            <div id="saveImg"></div>
+            <div id="addFile"></div>
+            <script>
+                document.getElementById("backImg").addEventListener("click", function() { 
+
+                //    let ele= document.getElementById("explorer");
+                   let wid=document.getElementById("explorer").style.width;
+
+                   document.getElementById("fname").style.display = "none";
+                   document.getElementById("submit").style.display = "none";
+                  
+                   if(wid=="0px")
+                   {
+                    document.getElementById("explorer").style.width = "225px";
+                    document.getElementById("tabs").style.marginLeft= "13.25rem";
+                   }
+                   else
+                   {
+                    document.getElementById("explorer").style.width = 0;
+                    document.getElementById("tabs").style.marginLeft= 0;
+                   }
+
+                });
+                </script>
+        </div>
+        <div id="container">    
+            <div id="top-bar">
+                <input type="text" id="fname" value = "" placeholder="Enter file name">
+                <input type="submit" id="submit" value="Create">
+                <div id="tabs">
+                    <ul></ul>
+                </div>
+            </div>
+            <div id="main-window">
+
+                <div id="explorer">
+                    <div id="jstree" style="width: 225px;" > </div>
+                </div>
+                <div id="editor-terminal-window">
+                    <div id="editor"></div>
+                    <div id="terminal"></div>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+
+<script src="./node_modules/xterm/lib/xterm.js"></script>
+<script src="./index.js"></script>
+</html>

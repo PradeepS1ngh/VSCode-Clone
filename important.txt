@@ -1,0 +1,40 @@
+
+
+(terminal)  
+
+install python 2.7
+https://www.python.org/download/releases/2.7/
+
+install node 12+
+https://nodejs.org/en/download/
+
+install node-gyp
+
+dev tools -> c++
+https://github.com/nodejs/node-gyp#installation
+
+
+()
+
+
+
+From Ujjwal Jindal to Everyone:  07:52 AM
+
+
+https://github.com/microsoft/monaco-editor-samples/blob/master/browser-amd-editor/index.html
+https://github.com/microsoft/monaco-editor/issues/90
+
+
+From Ujjwal Jindal to Everyone:  08:04 AM
+https://github.com/ujjwal0508/Vs-Code-PP
+
+
+From Jasbir Singh to Everyone:  08:57 AM
+https://stackoverflow.com/questions/57879150/how-can-i-solve-error-gypgyp-errerr-find-vsfind-vs-msvs-version-not-set-from-c
+
+
+From Ujjwal Jindal to Everyone:  09:12 AM
+https://github.com/microsoft/node-pty/tree/master/examples/electron
+
+
+pradeeep    kjafjkhsdjv
